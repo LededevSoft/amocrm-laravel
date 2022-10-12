@@ -1,17 +1,17 @@
 {
-    "name": "adminka/amocrm-laravel",
+    "name": "lebedevsoft/amocrm-laravel",
     "description": "AmoCRM API lib for Laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Adminka\\AmoCRM\\": "src/"
+            "LebedevSoft\\AmoCRM\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Anatolii Klimovych",
-            "email": "a@adminka.pro"
+            "name": "Alexandr Lebedev",
+            "email": "lebedev_as@bk.ru"
         }
     ],
     "minimum-stability": "dev",
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Adminka\\AmoCRM\\AmoServiceProvider"
+                "LebedevSoft\\AmoCRM\\AmoServiceProvider"
             ]
         }
     }
