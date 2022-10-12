@@ -1,0 +1,30 @@
+{
+    "name": "adminka/amocrm-laravel",
+    "description": "AmoCRM API lib for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adminka\\AmoCRM\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anatolii Klimovych",
+            "email": "a@adminka.pro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adminka\\AmoCRM\\AmoServiceProvider"
+            ]
+        }
+    }
+}
